@@ -1,6 +1,6 @@
 /* 전체설정 */
 * {
-	margin : 0;
+	margin: 0;
 	padding : 0;
 	box-sizing : border-box;
 	color: #000000;
@@ -10,6 +10,10 @@
 a {
 	text-decoration: none;
 	color: inherit;
+}
+
+ul, li {
+	list-style: none;
 }
 
 
@@ -30,16 +34,18 @@ a {
 .mainMenu {
 	width: 100%;
 	border-top: 1px solid #EEEEEE;
-	border-bottom: 2px solid #FF984F;
-	
+	border-bottom: 4px solid #FF984F;
 	
 }
 
 .mainMenu>.wrap {
 	display:flex;
 	justify-content: space-between;
-	padding: 0 100px 0 100px;
+	padding: 0 100px;
+	width: 1400px;
+	margin: 0 auto;
 }
+
 .mainMenu ul {
 	display:flex;
 	list-style: none;
@@ -89,9 +95,8 @@ footer {
 	width: 100%;
 	height: 100px;
 	background-color: #F9F9F9;
-	padding: 0 100px 0 100px;
+	padding: 20px 0;
 	border-top: 1px solid #DDDDDD;
-	
 }
 
 
@@ -99,7 +104,10 @@ footer {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 20px 0 20px 0;
+	width: 1400px;
+	padding: 0 100px;
+	margin: 0 auto;
+	
 }
 
 .footerContent .line {
@@ -107,9 +115,6 @@ footer {
 	height: 60px;
 }
 
-.serviceCall {
-
-}
 .storeInfo {
 	font-size: 12px;
 }
@@ -117,3 +122,92 @@ footer {
 .instagram i {
 	font-size: 40px
 }
+
+/* contents */
+.indexContent {
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.indexContent>.wrap {
+	width: 1400px;
+	margin: 0 auto;
+	padding: 0 100px;
+}
+
+.index01 {
+	width:100%;
+	height: 300px;
+	background-color: #123123;
+	margin-bottom: 70px;
+}
+
+.index02 {
+	display:flex;
+	justify-content: space-between;
+	width:100%;
+	height: 200px;
+	position: relative;
+}
+
+.indexTitle{
+	position: absolute;
+	top: -30px;
+	font-weight: 600;
+}
+.indexTitle>span {
+	margin-left: 2px;
+	margin-right: 200px;
+}
+
+
+.indexNotice {
+	width: 350px;
+	border-top: 2px solid #FF984F;
+	border-bottom: 2px solid #FF984F;
+}
+
+.indexNotice ul li {
+	padding:  5px 10px;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.indexNotice ul li:last-child {
+	border: none;
+}
+
+.indexNotice ul li a{
+	font-size: 14px;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.indexMap {
+	width: 350px;
+	border: 1px solid #DDDDDD;
+}
+.indexInsta {
+	width: 400px;
+}
+
+.indexInsta ul li{
+	width: calc(23% - 5px);
+	margin-right : 10px;
+	display: inline-block;
+	overflow: hidden;
+	
+}
+
+.indexInsta ul li a {
+	display: inline-block;
+}
+
+.indexInsta ul li img {
+	width: 100%;
+	object-fit:cover;
+}
+
+
+
+
+

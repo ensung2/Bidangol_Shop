@@ -16,7 +16,7 @@
 <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Gothic+A1&display=swap" rel="stylesheet">
 
-<!-- fontawesome -->
+<!-- font awesome -->
 <script src="https://kit.fontawesome.com/bfdc62a914.js" crossorigin="anonymous"></script>
 
 <!-- jquery -->
@@ -35,7 +35,7 @@
 				<li><a href="#">찹쌀떡</a></li>
 				<li><a href="#">멥쌀떡</a></li>
 				<li><a href="#">떡케이크</a></li>
-				<li><a href="#">단체주문</a></li>
+				<li><a href="#">기획전</a></li>
 			</ul>
 			<ul class="login">
 				<li><a href="#">로그인</a></li>
