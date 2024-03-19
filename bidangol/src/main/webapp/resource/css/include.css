@@ -67,6 +67,12 @@ ul, li {
 	font-weight: 600;
 }
 
+.selectedA {
+	background-color: #FF8E3D;
+	color: #ffffff;
+	font-weight: 600;
+}
+
 .mainMenu ul li:first-child {
 	border-left: 1px solid #eeeeee;
 }
